@@ -6,10 +6,14 @@ int main() {
 
     scanf("%d",&n);
 
-    printf("%d",n*n);
+    
 
-    if(n<5)
+    if(n<5){
         printf("%d\n",n*n); 
         printf("tiny");
+    }
+    else
+        printf("%d",n*n);
+
     return 0;
 }
