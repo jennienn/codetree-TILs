@@ -11,8 +11,8 @@ int main() {
     else if(1.0>a>=0.5){
         printf("Middle");
     }
-    else
+    else if(a<0.5)
         printf("Low");
-        
+
     return 0;
 }
