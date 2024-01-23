@@ -6,6 +6,6 @@ int main() {
 
     scanf("%f %f",&a,&b);
 
-    printf("%f %f", a+b, (a+b)/2);
+    printf("%.0f %.1f", a+b, (a+b)/2);
     return 0;
 }
