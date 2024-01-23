@@ -10,7 +10,7 @@ int main() {
     if(bmi>25)
         printf("%d",bmi);
         printf("obesity");
-    else
+    else if
         printf("%d",bmi);
     return 0;
 }
