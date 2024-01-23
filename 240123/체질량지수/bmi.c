@@ -7,10 +7,12 @@ int main() {
     scanf("%d %d",&a,&b);
     bmi = b/a^2;
     
-    if(bmi>25)
+    if(bmi>25){
         printf("%d",bmi);
         printf("obesity");
-    else if
+    }
+    else
         printf("%d",bmi);
+        
     return 0;
 }
