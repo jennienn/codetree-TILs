@@ -8,7 +8,7 @@ int main() {
     bmi = b*100*100/(a*a);
     
     if(bmi>25){
-        printf("%d",bmi);
+        printf("%d\n",bmi);
         printf("obesity");
     }
     else
