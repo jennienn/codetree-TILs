@@ -5,7 +5,7 @@ int main() {
 
     scanf("%d %d",&a,&b);
 
-    printf("%d * 5 = %d",a,a*5);
-    printf("%d / 5 = %d",a,a/5);
+    printf("%d * %d = %d",a,a*b);
+    printf("%d / %d = %d",a,a/b);
     return 0;
 }
