@@ -5,7 +5,7 @@ int main() {
     int a,b;
 
     scanf("%d\n%d",&a,&b);
-    printf("%d\n%d",a+87,b/10);
-    
+    printf("%d\n%d",a+87,b%10);
+
     return 0;
 }
