@@ -5,7 +5,7 @@ int main() {
     int a,b,bmi;
     
     scanf("%d %d",&a,&b);
-    bmi = b/a^2;
+    bmi = b*100*100/(a*a);
     
     if(bmi>25){
         printf("%d",bmi);
@@ -13,6 +13,6 @@ int main() {
     }
     else
         printf("%d",bmi);
-        
+
     return 0;
 }
