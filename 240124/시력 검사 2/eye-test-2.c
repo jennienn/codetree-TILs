@@ -8,10 +8,10 @@ int main() {
     if(a>=1.0){
         printf("High");
     }
-    else if(1.0>a>=0.5){
+    else if(a>=0.5){
         printf("Middle");
     }
-    else if(a<0.5)
+    else 
         printf("Low");
 
     return 0;
