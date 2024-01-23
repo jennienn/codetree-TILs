@@ -6,7 +6,7 @@ int main() {
     char d[100];
     scanf("%d",&s);
 
-    d = s=100 : "pass" : "failure";
+    d = s=100 : "pass" : "failure"
     printf("%s",d);
     return 0;
 }
