@@ -5,7 +5,7 @@ int main() {
     int s;
     scanf("%d",&s);
 
-    if(s>80){
+    if(s>=80){
         printf("pass");
     }
     else{
