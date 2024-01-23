@@ -5,10 +5,12 @@ int main() {
 
     scanf("%d",&n);
 
-    if(n<0)
+    if(n<0){
         printf("%d",n);
         printf("minus");
+    }
     else
         printf("%d",n);
+
     return 0;
 }
