@@ -18,10 +18,10 @@ int main() {
         printf("Usually");
     }
     else if(c=='D'){
-        printf("Effort")
+        printf("Effort");
     }
     else
         printf("Failure");
-        
+
     return 0;
 }
