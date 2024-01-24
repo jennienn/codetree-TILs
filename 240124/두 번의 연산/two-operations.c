@@ -8,8 +8,9 @@ int main() {
     if(a%2==1){
         a = a+3;
     }
-    if(a % 3==0){
+    else if(a % 3==0){
         printf("%d",a/3);
+        return 0;
     }
       
     printf("%d",a);
