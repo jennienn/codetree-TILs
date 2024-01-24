@@ -15,6 +15,6 @@ int main() {
         printf("pen");
     }
     else
-        pirntf("no");
+        printf("no");
     return 0;
 }
