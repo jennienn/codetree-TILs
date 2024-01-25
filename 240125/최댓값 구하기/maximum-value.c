@@ -19,7 +19,6 @@ int main() {
             printf("%d",&b);
         }
     }
-    }
     
     return 0;
 }
