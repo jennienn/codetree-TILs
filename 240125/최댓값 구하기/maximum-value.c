@@ -7,19 +7,19 @@ int main() {
 
     if(a>=b){
         if(a>=c){
-            printf("%d",&a);
+            printf("%d",a);
         }
         else{
-            printf("%d",&c);
+            printf("%d",c);
         }
     }
     
     else{
         if(b>=c){
-            printf("%d",&b);
+            printf("%d",b);
         }
         else{
-            printf("%d",&c);
+            printf("%d",c);
         }
     }
     
