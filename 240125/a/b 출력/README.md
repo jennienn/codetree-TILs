@@ -1,5 +1,7 @@
 # [a/b 출력 ](https://www.codetree.ai/missions/4/problems/a-divide-b)
 
+다시풀기
+
 |유형|문제 경험치|난이도|
 |---|---|---|
 |[Novice Low / 단순 반복문 / n번 반복하기](https://www.codetree.ai/missions?missionId=4)|20xp|![어려움][hard]|
