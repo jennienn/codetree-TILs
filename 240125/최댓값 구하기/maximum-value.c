@@ -12,6 +12,7 @@ int main() {
         else{
             printf("%d",&c);
         }
+    }
     
     else{
         if(b>=c){
