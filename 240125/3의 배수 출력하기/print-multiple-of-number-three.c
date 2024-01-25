@@ -8,7 +8,7 @@ int main() {
 
     while(i>=n){
         printf("%d ",n);
-        i *= 2;
+        n *= 3;
     }
     return 0;
 }
