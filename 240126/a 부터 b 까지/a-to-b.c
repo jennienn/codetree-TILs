@@ -10,9 +10,9 @@ int main() {
     while(i <= b){
         printf("%d ",i);
         if(i % 2 == 1)
-            i += 3;
-        else
             i *= 2;
+        else
+            i += 3;
     }
 
     return 0;
