@@ -15,7 +15,7 @@ int main() {
 
     for(int i=0; i<n; i++){
         cnt++;
-        sum += i;
+        sum += num[i];
     }
     
     printf("%d %.1f",sum,(float)sum/cnt);
