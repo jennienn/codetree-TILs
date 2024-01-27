@@ -12,7 +12,7 @@ int main() {
     int sum=0;
 
     for(int i=0; i<n; i++){
-        if(i%2==1 && i%3==0){
+        if(num[i]%2==1 && num[i]%3==0){
             sum += i;
         }
     }
