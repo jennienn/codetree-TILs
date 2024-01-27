@@ -9,7 +9,7 @@ int main() {
         scanf("%d\n",&num[i]);
     }
 
-    int sum;
+    int sum=0;
 
     for(int i=0; i<n; i++){
         if(i%2==1 && i%3==0){
