@@ -3,6 +3,7 @@
 int main() {
     // 여기에 코드를 작성해주세요.
     int n;
+    scanf("%d",&n);
     int num[n];
 
     for(int i=0; i<n; i++){
@@ -13,7 +14,7 @@ int main() {
 
     for(int i=0; i<n; i++){
         if(num[i]%2==1 && num[i]%3==0){
-            sum += i;
+            sum += num[i];
         }
     }
 
