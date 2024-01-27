@@ -15,7 +15,7 @@ int main() {
             sum += i;
         }
     }
-
-    printf("%d %.1f",sum, sum/cnt);
+    
+    printf("%d %.1f",sum, (float)sum/cnt);
     return 0;
 }
