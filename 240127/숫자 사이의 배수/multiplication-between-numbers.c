@@ -16,6 +16,6 @@ int main() {
         }
     }
 
-    printf("%d %f",sum, sum/cnt);
+    printf("%d %.1f",sum, sum/cnt);
     return 0;
 }
