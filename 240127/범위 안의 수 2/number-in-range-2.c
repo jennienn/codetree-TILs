@@ -12,12 +12,15 @@ int main() {
     int cnt=0;
 
     for(int i=0; i<10; i++){
-        if(i>=0 && i<=200){
+        if(num[i]>=0 && num[i]<=200){
             cnt++;
-            sum += i;
+            sum += num[i];
         }
     }
 
+    
+
     printf("%d %.1f", sum, (float)sum/cnt);
+
     return 0;
 }
