@@ -8,8 +8,8 @@ int main() {
 
     int prod=1;
 
-    for(int i=a; i<=b; i++){
-        prod *= i;
+    for(int i=1; i<=b; i++){
+        prod *= a;
     }
 
     printf("%d",prod);
