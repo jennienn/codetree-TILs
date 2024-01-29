@@ -1,27 +1,29 @@
 #include <stdio.h>
 #include <stdbool.h>
 
+
 int main() {
-    // 여기에 코드를 작성해주세요.
+    int a, b;
+    scanf("%d %d", &a, &b);
 
-    int a,b;
-    scanf("%d %d",&a,&b);
+    bool h = false;
 
-    bool s = false;
+    int smaller = (a < b) ? a : b; // 두 수 중 작은 수 선택
 
-    for(int i=1; i<=a && i<=b; i++){
-        if(1920%i==0 && 2880%i==0){
-            s = true;
+    // 1부터 작은 수까지 반복하면서 공약수 출력
+    for (int i = 1; i <= smaller; ++i) {
+            if (a % i == 0 && b % i == 0) {
+                h = true;
+            }
         }
-    }
 
-    if(s==true){
-        printf("1");
+    if(h==true) {
+        printf("1\n");
+    } 
+    else {
+        printf("0\n");
     }
-    else{
-        printf("0");
-    }
-
 
     return 0;
-}
+    
+    }
