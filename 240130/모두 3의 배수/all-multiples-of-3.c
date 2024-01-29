@@ -7,11 +7,13 @@ int main() {
     int n;
     
     for(int i=0; i<5; i++){
+        int n;
         scanf("%d\n",&n);
     }
+
     bool s = true;
 
-    for(int i=0; i<5; i++){
+    for(int i=0; i<=5; i++){
         if(n%3!=0){
             s = false;
         }
