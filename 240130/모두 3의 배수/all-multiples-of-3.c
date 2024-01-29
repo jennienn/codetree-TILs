@@ -5,7 +5,6 @@ int main() {
     // 여기에 코드를 작성해주세요.
     
     int n;
-    int cnt;
     
     for(int i=0; i<5; i++){
         scanf("%d\n",&n);
@@ -13,12 +12,9 @@ int main() {
     bool s = true;
 
     for(int i=0; i<5; i++){
-        if(n%3==0){
-            cnt++;
+        if(n%3!=0){
+            s = false;
         }
-    }
-    if(cnt==5){
-        s = false;
     }
 
     if(s==true){
