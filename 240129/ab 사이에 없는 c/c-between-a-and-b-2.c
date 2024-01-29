@@ -10,11 +10,11 @@ int main() {
     bool s = true;
 
     for(int i=a; i<=b; i++){
-        if(i%c!=0){
+        if(i%c==0){
             s = false;
         }
     }
-    if(s==false){
+    if(s==true){
         printf("YES");
     }
     else{
