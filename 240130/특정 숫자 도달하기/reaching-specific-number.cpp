@@ -22,7 +22,7 @@ int main() {
     double avg = (double)sum/ cnt;
 
     cout << fixed;
-    cout.precision(1)
+    cout.precision(1);
     cout << sum << " " << avg;
 
     return 0;
