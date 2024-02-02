@@ -14,10 +14,10 @@ int main() {
     }
 
     for(int i=0; i<10; i++){
-        cout << arr[i] << " ";
-        if(arr[i]%5==0)
+        cout << a[i] << " ";
+        if(a[i]%5==0)
             cnt++;
-        if(cnt >=)
+        if(cnt >= 2)
             break;
     }
 
