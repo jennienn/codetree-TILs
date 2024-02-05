@@ -10,7 +10,7 @@ int main() {
         cin >> a[i];
     }
 
-    for (int i = 1; i < q; i++) {
+    for (int i = 0; i < q; i++) {
         int Q, N, N2;
         cin >> Q;
 
@@ -23,14 +23,14 @@ int main() {
         if (Q == 1) {
             cout << a[N] << endl;
         } else if (Q == 2) {
-            int foundindex = 0;
+            int foundIndex = 0;
             for (int j = 1; j <= n; j++) {
                 if (a[j] == N) {
-                    foundindex = j;
+                    foundIndex = j;
                     break;
                 }
             }
-            cout << foundindex << endl;
+            cout << foundIndex << endl;
         } else if (Q == 3) {
             for (int j = N; j <= N2; j++) {
                 cout << a[j] << " ";
