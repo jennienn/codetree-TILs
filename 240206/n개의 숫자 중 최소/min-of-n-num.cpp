@@ -21,6 +21,6 @@ int main() {
         }
     }
 
-    cout << min << " " << cnt+1 << endl;
+    cout << min << " " << cnt << endl;
     return 0;
 }
