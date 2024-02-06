@@ -14,7 +14,7 @@ int main() {
     int min = a[0];
     int cnt=1;
 
-    for(int i=0; i<n; i++){
+    for(int i=1; i<n; i++){
         if(min>a[i]){
             min = a[i];
             cnt=1;
