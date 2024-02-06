@@ -12,13 +12,15 @@ int main() {
     }
 
     int min = a[0];
-    int cnt=0;
+    int cnt=1;
 
     for(int i=0; i<n; i++){
         if(min>a[i]){
             min = a[i];
-            cnt++;
+            cnt=1;
         }
+        else if(min==a[i])
+            cnt++;
     }
 
     cout << min << " " << cnt << endl;
