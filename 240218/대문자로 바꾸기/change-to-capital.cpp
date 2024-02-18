@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
  
-	char arr_2d[5][3];
+	char arr[5][3];
 	
 	for(int i = 0; i < 5; i++)
 		for(int j = 0; j < 3; j++)
