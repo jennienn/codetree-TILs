@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 int main() {
@@ -15,7 +16,7 @@ int main() {
 
     for(int i=0; i<10; i++){
        int len = str[i].length();
-        if(str[i][len-1]==s){
+        if(str[i][len-1] == s){
             cout << str[i] << endl;
             cnt++;
        }
