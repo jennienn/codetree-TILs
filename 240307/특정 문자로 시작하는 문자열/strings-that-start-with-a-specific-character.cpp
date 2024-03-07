@@ -17,13 +17,14 @@ int main() {
     int cnt=0;
     int sum = 0;
     for(int i=0; i<n; i++){
-        if(str[i][0]=='c'){
+        if(str[i][0]==s){
             cnt++;
         }
 
-        int len = str[i].length();
-        sum += len;
 
+            int len = str[i].length();
+            sum += len;
+   
     }
     float avg = sum/n;
     
