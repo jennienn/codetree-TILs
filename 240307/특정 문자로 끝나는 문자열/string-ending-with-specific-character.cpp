@@ -3,27 +3,29 @@
 using namespace std;
 
 int main() {
-    
-    string str[10];
 
-    for(int i=0; i<10; i++){
-        cin >> str[i];
-    }
+	string str[10];
+	
 
-    char s;
-    cin >> s;
-    int cnt = 0;
+	for(int i = 0; i < 10; i++)
+		cin >> str[i];
+	
 
-    for(int i=0; i<10; i++){
-       int len = str[i].length();
-        if(str[i][len-1] == s){
-            cout << str[i] << endl;
-            cnt++;
-       }
+	char a;
+	cin >> a;
+	int cnt = 0;
 
-       if(cnt == 0){
-        cout << "None";
-       }
-    }
+	for(int i = 0; i < 10; i++) {
+		int len = str[i].length();
+		if(str[i][len-1] == a) {
+			cout << str[i] << endl;
+			cnt++;
+		}
+	}
+	
+
+	if(cnt == 0)
+		cout << "None";
+	
     return 0;
 }
