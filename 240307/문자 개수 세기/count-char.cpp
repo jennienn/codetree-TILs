@@ -11,7 +11,7 @@ int main() {
 
     int cnt=0;
 
-    for(int i=0; i<=100; i++){
+    for(int i=0; i<=str.length(); i++){
         if(str[i]==s){
             cnt++;
         }
