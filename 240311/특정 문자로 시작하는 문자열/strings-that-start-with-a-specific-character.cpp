@@ -19,14 +19,12 @@ int main() {
     for(int i=0; i<n; i++){
         if(str[i][0]==s){
             cnt++;
-        }
-
-
             int len = str[i].length();
             sum += len;
-   
+        }
     }
-    float avg = sum/n;
+
+    float avg = sum/cnt;
     
     cout << fixed;
     cout.precision(2);
