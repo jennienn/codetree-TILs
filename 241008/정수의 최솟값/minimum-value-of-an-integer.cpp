@@ -5,10 +5,11 @@ int findMin(int a, int b, int c){
     
     if(a>=b){
         if(a>=c){
-            return c;
-        }else{
-            return b;
-        }
+            if(b>=c){
+                return c;
+            }else{
+                return b;
+            }
     }else{
         if(a<=c){
             return a;
