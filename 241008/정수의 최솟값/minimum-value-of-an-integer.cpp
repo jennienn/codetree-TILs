@@ -3,18 +3,15 @@ using namespace std;
 
 int findMin(int a, int b, int c){
     
-    if(a>=b){
-        if(a>=c){
-            if(b>=c){
-                return c;
-            }else{
-                return b;
-            }
-    }else{
-        if(a<=c){
-            return a;
-        }
+    int min = a;
+    if(min > b){
+        min = b;
     }
+    if(min > c){
+        min = c;
+    }
+
+    return min;
 }
 
 int main() {
