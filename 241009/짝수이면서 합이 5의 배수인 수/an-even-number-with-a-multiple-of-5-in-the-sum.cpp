@@ -14,6 +14,8 @@ int main() {
        }
        if(sum%5==0){
         cout << "Yes";
+       }else{
+        cout << "No";
        }
     }else{
         cout << "No";
