@@ -11,7 +11,7 @@ void cal(int a, char o, int c){
     }else if(o=='*'){
         cout << a << " * " << c << " = " << a*c << endl;
     }else{
-        cout << "Fasle"<< endl;
+        cout << "False"<< endl;
     }
 }
 
